@@ -52,23 +52,5 @@ Caesar Cipher implementation with both GUI and command-line interfaces for encry
 - Default shift value is 5
 - Not recommended for sensitive data
 
-## Creating Executable
-To create a standalone .exe:
-1. Install PyInstaller:
-   ```
-   pip install pyinstaller
-   ```
-2. Create the executable:
-   ```
-   python -m PyInstaller --onefile --windowed CaesarCipherUI.py
-   ```
-3. Find the executable in the `dist` folder
-
 ## License
 This project is open source under the MIT License.
-
-## Support
-Create an issue in the GitHub repository for:
-- Bug reports
-- Feature requests
-- Questions 
